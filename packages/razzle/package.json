@@ -1,9 +1,8 @@
 {
-  "name": "razzle",
-  "version": "3.0.0-alpha.2",
+  "name": "dpdk-razzle",
+  "version": "0.0.1",
   "description": "Create server-rendered universal JavaScript applications with no configuration",
-  "repository": "git@github.com:jaredpalmer/razzle.git",
-  "author": "Jared Palmer <jared@palmer.net>",
+  "repository": "dpdknl/razzle",
   "license": "MIT",
   "bin": {
     "razzle": "./bin/razzle.js"
@@ -47,6 +46,7 @@
     "postcss-preset-env": "^6.0.6",
     "postcss-safe-parser": "^4.0.1",
     "razzle-dev-utils": "^3.0.0-alpha.2",
+    "razzle-plugin-scss": "3.0.0-alpha.2",
     "react-dev-utils": "^6.0.4",
     "react-error-overlay": "^5.0.4",
     "source-map-support": "^0.5.9",

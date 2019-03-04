@@ -44,7 +44,7 @@ module.exports = {
   dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
   appBuild: resolveApp('build'),
-  appBuildPublic: resolveApp('build/public'),
+  appBuildPublic: resolveApp('public'),
   appManifest: resolveApp('build/assets.json'),
   appPublic: resolveApp('public'),
   appNodeModules: resolveApp('node_modules'),

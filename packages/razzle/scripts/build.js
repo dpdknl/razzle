@@ -13,6 +13,7 @@ process.on('unhandledRejection', err => {
 // Ensure environment variables are read.
 require('../config/env');
 
+const path = require('path');
 const webpack = require('webpack');
 const fs = require('fs-extra');
 const chalk = require('chalk');
@@ -33,9 +34,10 @@ measureFileSizesBeforeBuild(paths.appBuildPublic)
     // Remove all content but keep the directory so that
     // if you're in it, you don't end up in Trash
     fs.emptyDirSync(paths.appBuild);
+    fs.emptyDirSync(path.join(paths.appBuildPublic, 'static'));
 
     // Merge with the public folder
-    copyPublicFolder();
+    // copyPublicFolder();
 
     // Start the webpack build
     return build(previousFileSizes);
