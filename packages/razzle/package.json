@@ -1,11 +1,11 @@
 {
   "name": "dpdk-razzle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create server-rendered universal JavaScript applications with no configuration",
   "repository": "dpdknl/razzle",
   "license": "MIT",
   "bin": {
-    "razzle": "./bin/razzle.js"
+    "dpdk-razzle": "./bin/razzle.js"
   },
   "files": [
     "bin",
