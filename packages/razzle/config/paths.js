@@ -43,9 +43,9 @@ const nodePaths = (process.env.NODE_PATH || '')
 module.exports = {
   dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
-  appBuild: resolveApp('build'),
+  appBuild: resolveApp('app/dist'),
   appBuildPublic: resolveApp('public'),
-  appManifest: resolveApp('build/assets.json'),
+  appManifest: resolveApp('app/dist/assets.json'),
   appPublic: resolveApp('public'),
   appNodeModules: resolveApp('node_modules'),
   appSrc: resolveApp('src'),
